@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "rpp-prod-tfstate-ap-southeast-3" {
+resource "aws_s3_bucket" "terraform-mii-prod-tfstate-ap-southeast-3" {
   bucket = "terraform-mii-tfstate-ap-southeast-3"
 }
 
