@@ -7,7 +7,7 @@ terraform {
 
   backend "s3" {
     bucket         = "terraform-mii-tfstate-ap-southeast-3"
-    key            = "networking/vpc/terraform.tfstate"
+    key            = "main/resources/terraform.tfstate"
     dynamodb_table = "terraform-mii-tfstate-lock"
     region         = "ap-southeast-3"
   }
